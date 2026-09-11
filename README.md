@@ -6,10 +6,6 @@ A fast, SEO-friendly, single-page affiliate website that reviews the Prime Perfo
 
 This is a **100% static** affiliate marketing site, built to run on GitHub Pages with no server, database, or build step. It presents the Prime Perform formula — active ingredients, manufacturing standards, guarantee, and buying considerations — using only verified information published by the manufacturer.
 
-Commission links point to:
-
-```
-https://primeperformpro.com/welcome/#aff=sangamsth
 ```
 
 All affiliate links are marked with `rel="nofollow sponsored"` and open in a new tab.
