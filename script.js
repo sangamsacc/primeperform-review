@@ -30,7 +30,7 @@
     var inCta = ctaSection.getBoundingClientRect().top < window.innerHeight * 0.75;
     var show = mqSticky.matches && window.scrollY > 520 && !inCta;
     stickyCta.classList.toggle("show", show);
-    stickyCta.setAttribute("aria-hidden", String(!show));
+    stickyCta.inert = !show;
   }
 
   if (mqSticky.addEventListener) {
